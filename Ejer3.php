@@ -8,7 +8,7 @@
 
 echo  "<h2>Arreglos</h2>";
 
-$miArreglo = array (10, 20, 30, 40, 50);
+$miArreglo = array (10,20,30,40,50);
 
 echo "<p>Contenido del elemento 2 del arreglo: $miArreglo[2]</p>";
 
@@ -21,11 +21,11 @@ $miFechaArr["dia"]="Lunes";
 $miFechaArr["mes"]="Mayo";
 $miFechaArr["año"]="2020";
 
-echo "<br><br>>";
+echo "<br><br>";
 
-var_dump ($miFechaArr["año"]);
+var_dump ($miFechaArr);
 
-unset   ($miFechaArr["año"]);
+unset ($miFechaArr["año"]);
 echo "<br><br>";
 print_r ($miFechaArr);
 $MiArregloReves =    array_reverse($miArreglo);
