@@ -30,7 +30,7 @@ echo "<br><br>";
 print_r ($miFechaArr);
 $MiArregloReves =    array_reverse($miArreglo);
 
-echo "<br><br>"
+echo "<br><br>";
 print_r($MiArregloReves);
 
 ?>
