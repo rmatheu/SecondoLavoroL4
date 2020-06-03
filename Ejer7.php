@@ -29,6 +29,16 @@ if (is_numeric($_GET['Numero']))
     {
         echo "<h2>Ingreso no valido</h2>";
     }
+    $n = 11;
+    $M = $n - 1;
+    $primo = "Si";
+    for ($i = 2; $i<= $M; $i++){
+        $residuo = $n % $i;
+        if ($residuo ==0){
+            $primo = "No";
+        break;
+        }
+    }
 
 
 ?>
