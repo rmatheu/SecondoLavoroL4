@@ -6,7 +6,7 @@
 <form>
     Escribe un numero:
     <input name="Numero" type="numeric" placeholder="Escribe numero">
-    <input type="submit"  value="Registrar">
+    <input type="submit"  value="R">
 </form>
 
 <?php
