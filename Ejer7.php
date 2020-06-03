@@ -46,9 +46,9 @@ if (is_numeric($_GET['Numero']))
            return True;
         } else {
             
-            // comprobamos si es par
+            
             if ($num % 2 != 0) {
-                // comprobamos solo por los impares
+            
                 for ($i = 3; $i <= sqrt($num); $i += 2) {
                     if ($num % $i == 0) {
                         return False;
