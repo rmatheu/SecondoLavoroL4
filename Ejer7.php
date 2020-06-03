@@ -18,7 +18,8 @@ if (is_numeric($_GET['Numero']))
 {
     if($_GET['Numero']>1)
     {
-        echo "<h2>Numero ingreso valido, es mayor a 1</h2>";
+        echo "<h2>Numero ingreso valido</h2>";
+        echo "<h2>Numero mayor a 1</h2>";
     }
     else
     {
