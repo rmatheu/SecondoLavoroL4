@@ -5,7 +5,7 @@
 <h1> Ejercicio 7</h1>
 <form>
     Escriba un numero:
-    <input name="Numero" type="integer" placeholder="Escriba un numero">
+    <input name="Numero" type="text" placeholder="Escriba un numero">
     <input type="submit"  value="Revisar">
 </form>
 
