@@ -29,15 +29,7 @@ if (is_numeric($_GET['Numero']))
     {
         echo "<h2>Ingreso no valido</h2>";
     }
-    for ($i=1; $i<=100; $i++) {
-        if (primo($i)) {
-            echo "<br>El número ".$i." es primo";
-        } else {
-            echo "<br>El número ".$i." no es primo";
     
-           
-        }
-    }
     $n = ($_GET['Numero']);
 
     $M = $n - 1;
