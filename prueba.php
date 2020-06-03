@@ -20,7 +20,7 @@ echo "<h2>"."No es un numero primo"."</h2>";
 
 <form>
     Escriba un numero:
-    <input name="Numero" type="text" placeholder="Escriba un numero">
+    <input name="numero" type="text" placeholder="Escriba un numero">
     <input type="submit"  value="Revisar">
 </form>
 
