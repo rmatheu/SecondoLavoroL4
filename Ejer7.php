@@ -20,18 +20,8 @@ if (is_numeric($_GET['Numero']))
     {
         echo "<h2>Numero ingreso valido</h2>";
         echo "<h2>Numero mayor a 1</h2>";
-    }
-    else
-    {
-        echo "<h2>Numero ingresado no valido, es igual o menor a 1</h2>";
-   }
-}
-    else 
-    {
-        echo "<h2>Ingreso no valido</h2>";
-    }
-    
-    $n = ($_GET['Numero']);
+
+        $n = ($_GET['Numero']);
 
     $M = $n - 1;
     
@@ -51,6 +41,18 @@ if (is_numeric($_GET['Numero']))
     {
     echo "<br>$n No es primo";
     }
+    }
+    else
+    {
+        echo "<h2>Numero ingresado no valido, es igual o menor a 1</h2>";
+   }
+}
+    else 
+    {
+        echo "<h2>Ingreso no valido</h2>";
+    }
+    
+    
        
 
 
