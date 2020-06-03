@@ -38,27 +38,25 @@ if (is_numeric($_GET['Numero']))
            
         }
     }
-    function primo($num)
-    {
-        if ($num == 2 || $num == 3 || $num == 5 || $num == 7) {
-           
-            
-           return True;
-        } else {
-            
-            
-            if ($num % 2 != 0) {
-            
-                for ($i = 3; $i <= sqrt($num); $i += 2) {
-                    if ($num % $i == 0) {
-                        return False;
-                    }
-                }
-                return True;
-            }
-        }
-        return False;
+    $n = ($_GET['Numero']);
+
+    $M = $n - 1;
     
+    $primo = "Si";
+    
+    for ($i = 2; $i <=$M; $i++){
+    $residuo = $n % $i;
+    if ($residuo == 0){
+     $primo = "No";
+    break;
+    }
+}
+    if ($primo == "Si"){
+    echo "<br>$n es primo";
+    }
+    else
+    {
+    echo "<br>$n no es primo";
     }
        
 
