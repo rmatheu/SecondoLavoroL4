@@ -44,11 +44,11 @@ if (is_numeric($_GET['Numero']))
     }
 }
     if ($primo == "Si"){
-    echo "<br>$n es primo";
+    echo "<br>$n Es primo";
     }
     else
     {
-    echo "<br>$n no es primo";
+    echo "<br>$n No es primo";
     }
        
 
